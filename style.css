@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease all;
+}
+
+
+/*  Navigation Bar  */
+
+header .Navbar{
+    background-color: orangered;
+    padding: 10px;
+}
+header .Navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.Welcome{
+    text-align: center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-image: url(images/UFS4.jpg),linear-gradient(to bottom,rgb(0, 0, 0),rgb(0, 0, 0));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.Welcome h1{
+    font-size: 44px;
+    color: white;
+    text-shadow: 10px 10px 25px black;
+}
+.Welcome h2{
+    margin: 20px 0;
+    color: white;
+    text-shadow:  10px 10px 15px black;
+}
+.Welcome button{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+}
+.Welcome button:hover{
+    box-shadow: 0 0 15px white;
+}
+
+.FeaturedProducts{
+    padding: 20px;
+}
+.FeaturedProducts h2{
+    text-decoration: underline orangered;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.FeaturedProducts .Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+.Products .Product{
+    width: 350px;
+    box-shadow: 0 0 10px rgb(226, 226, 226);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Products .Product:hover{
+    box-shadow: 0  0 15px #555;
+    cursor: pointer;
+}
+.Products .Product img{
+    width: 100%;
+}
+.Products .wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: orangered;
+    padding: 10px 30px;
+    text-align: center;
+    color: white;
+}
+footer h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 2px black;
+}
+footer .links{
+    margin: 10px 0;
+}
+footer .links a{
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+footer p{
+    margin-top: 10px;
+}
